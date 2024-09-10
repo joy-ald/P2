@@ -7,16 +7,36 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+
+
+
+
+ <style>
+        .image-container {
+            display: flex;
+        }
+        .image-container img {
+            margin-right: 10px; /* Add space between images */
+        }
+    </style>
+
+
+
+
 <style>
   .about-section {
-    text-align: center;
+    text-align: left;
     padding: 50px 0;
   }
+
+
+
   .about-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
   }
   .about-section img {
+    align: left;
     width: 200px; /* Adjust the size as needed */
     height: 200px;
     border-radius: 50%; /* Makes the image round */
@@ -26,64 +46,13 @@
     color: #333;
   }
 
-/* Additional CSS for ORCID Profile section */
-.OR-section h2 {
-  margin-bottom: 40px;
-  font-size: 1.75rem;
-}
-.OR-section {
-    text-align: right;
-    padding: 10px 0;
-  }
-
-.OR-section img {
-    width: 400px; /* Adjust the size as needed */
-    height: 400px;
-object-fit: cover;
-object-position: 2% 2%; 
-}
 
 
 
 
-  /* Additional CSS for Google Scholar Profile section */
-.GS-section h2 {
-  margin-bottom: 40px;
-  font-size: 1.75rem;
-}
-.GS-section {
-    text-align: left;
-    padding: 10px 0;
-  }
 
-.GS-section img {
-    width: 500px; /* Adjust the size as needed */
-    height: 500px;
-object-fit: cover;
-object-position: 2% 2%; 
-}
-.card {
-  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
-}
-.card-img-top {
-  max-height: 180px; /* Adjust this value to fit the image properly in the card */
-  object-fit: cover; /* This makes sure the image covers the area properly */
-}
-.card-body {
-  padding: 15px;
-}
-.card-title {
-  font-size: 1.25rem;
-}
-.card-text {
-  margin-bottom: 15px;
-}
-.card-img {
-  width: 150px;
-  height: 100px;
-  border: 1px solid #000;
-  margin: 10px 0;
-}
+  
+
 
 
   /* Additional CSS for Projects Section */
@@ -204,67 +173,167 @@ html {
 
 </style>
 
+
+
 </head>
 <body>
 
 <section id='about' class="about-section">
-  <div class="container">
-    <h2>Bejoy Alduse</h2>
-    <img src="images/about/1.jpg" alt="Hi !">
-    <p> I am skilled Data Scientist and Statistical Modeler, experienced in Machine learning models, Data Pipelines, Statistical models and Visualizations. </p>
-    <p>I used Python, SQL, C++ and Javascript.</p>
-
-
-    <p>Phone: 850-345-8504 | aldusejoy@gmail.com | </p>
-<p> <a    
-    href="https://linkedin.com/in/bejoyalduse">
-    Linkedin </a> | <a    
-    href="https://github.com/joy-ald">
-    Git </a>  | <a    
-    href="https://tinyurl/bejoyML">
-    Google Cloud </a> |
-<a    
-    href="https://tinyurl/bejoyCE">
-    Coursera </a> | 
   
-    </p>
+<div class="container">
+    
+    <img src="images/about/1.jpg" >
+
+    
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bejoy Alduse - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.4;
+        }
+        h1, h2 {
+            color: #333;
+            text-align: left;
+        }
+        h1 {
+            font-size: 60px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        a {
+            color: #0066cc;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info a {
+            margin-right: 15px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><b>Bejoy Alduse </b> </h1>
+<p> &nbsp; </p>
+    <div class="contact-info">
+        <p>Phone: 850-345-8504 | Email: <a href="mailto:bejoy.alduse@gmail.com">bejoy.alduse@gmail.com</a></p>
+        <p>
+            <a href="https://linkedin.com/in/bejoyalduse" target="_blank">LinkedIn</a>
+            <a href="https://github.com/joy-ald" target="_blank">GitHub</a>
+            <p> &nbsp; </p>
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Summary</h2>
+        <p>Data Scientist with extensive experience in predictive analytic solutions using Python and SQL. ETL experience and object-oriented programming skills. Demonstrated ability to express complex technical concepts in business terms. Developed technology products through innovation using agile methodologies for building, testing, and release. Excellent experience implementing operational research and computer science methods.</p>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <p>Python, SQL, <a href="http://tinyurl.com/bejoyML" target="_blank">BigQuery,  Google Cloud</a>, AWS, Tableau, Jupyter, Matlab</p>
+        <p>Working knowledge of Alteryx, Kubernetes, Docker, Bert, Encoder-Decoder, RNN, CNN</p>
+    </div>
+
+    <div class="section">
+        <h2>Work Experience</h2>
+        <h3>Clemson-AIG partnership and Self-Taught, Nashville</h3>
+        <p><strong>Data Scientist</strong> | Jan 2022 - Aug 2024</p>
+        <ul>
+            <li>Developed scalable solutions (Python, SQL), analytics strategy, dashboards (Tableau), and applications in Agile. Collaborated with 5 engineers on $100M insurer portfolio.</li>
+            <li>Researched 25 factors influencing insurance risk and business profit. Mapped vendor vs. in-house models. Improved speed by 30% using MapReduce.</li>
+            <li>Conducted data analysis on large datasets for actionable insights using Python and SQL. Modeled Bayesian Network for $70M wind farm risk across 5 US states.</li>
+            <li>Designed machine learning algorithms (LSTM, RNN, Regression) for real-time data, optimizing risk visibility and revenue.</li>
+            <li><a href="http://tinyurl.com/bejoyCE" target="_blank">ML and Python Certifications </a></li>
+        </ul>
+
+        <h3>Clemson-AIG partnership, Clemson</h3>
+        <p><strong>Research Fellow</strong> | Aug 2015 - Jan 2019</p>
+        <ul>
+            <li>Developed vulnerability framework for buildings, generating 500+ models in Matlab. Improved efficiency by 15% using Hadoop.</li>
+            <li>Submitted batch jobs using Linux shell. Enhanced flexibility for multiple occupancy, construction types, and environmental effects.</li>
+            <li>Incorporated physics-based models on wind pressure, debris impact, and rain intrusion in loss estimation. Published research and presented at a conference.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <h3>Florida State University, Tallahassee</h3>
+        <p><strong>Ph.D., Civil Engineering</strong> | Jan 2010 - Dec 2014</p>
+        <p>Research: Bayesian approach to predictive models, determining failure probabilities in complex systems.</p>
+        
+    </div>
+
+</body>
+</html>
+
+  
+
+
+
   </div>
 </section>
 
+<style>
+        /* Container for the two images side by side */
+        .image-container {
+            display: flex;
+            justify-content: space-between; /* Space between the images */
+        }
 
-<section id='GS' class="GS-section">
-  <div class="container">
-    <h2>Google Scholar Profile</h2>
-    <a    
-    href="https://scholar.google.com/citations?user=-Wiy3ksAAAAJ&hl=en">
-    Visit my Google Scholar Link </a>
-    
-<p> &nbsp  <p>
-<p>  <p>
+        /* Each individual image and its heading (inside the container ?) */
+        .image-item {
+            text-align: center; /* Center the heading and image */
+            margin: 10px; /* Add some margin around the images */
+        }
 
+        /* Style for images */
+        .image-item img {
+            width: 700px;
+            height: 1000px;
+        }
+    </style>
+</head>
+<body>
 
-    <img src="https://api.url2png.com/v6/P4DF2F8BC83648/98cad82bc19bc7352c1c6a262c346190/png/?thumbnail_max_width=851&url=https://scholar.google.com/citations?user=-Wiy3ksAAAAJ&hl=en&viewport=1280x2000">
+<div class="image-container">
+    <div class="image-item">
+        <h5>
+            <a href="https://tinyurl/bejoyalduse"target="_blank">Visit Google Scholar Profile </a>
+        </h5>
 
-<p>  <p>
+        <img src="https://api.url2png.com/v6/P4DF2F8BC83648/98cad82bc19bc7352c1c6a262c346190/png/?thumbnail_max_width=851&url=https://scholar.google.com/citations?user=-Wiy3ksAAAAJ&hl=en&viewport=1280x2000" alt="Image 1">
+    </div>
+    <div class="image-item">
+        <h5>
+            <a href="https://tinyurl/bejoyOR"target="_blank">Visit ORCID Profile</a>
+        </h5>
+
+        <img src="https://api.url2png.com/v6/P4DF2F8BC83648/35a0c07efd4efe2c50f1fb17e4f6072f/png/?thumbnail_max_width=851&url=https://orcid.org/0000-0003-0485-2545&viewport=1280x2000" alt="Image 2">
+    </div>
 </div>
-</section>
-
-<section id='OR' class="OR-section">
-  <div class="container">
-    <h2>Google Scholar Profile</h2>
-    <a    
-    href="https://scholar.google.com/citations?user=-Wiy3ksAAAAJ&hl=en">
-    Visit my Google Scholar Link </a>
-    
-<p> &nbsp  <p>
-<p>  <p>
 
 
-    <img src="https://api.url2png.com/v6/P4DF2F8BC83648/35a0c07efd4efe2c50f1fb17e4f6072f/png/?thumbnail_max_width=851&url=https://orcid.org/0000-0003-0485-2545&viewport=1280x2000">
 
-<p>  <p>
-</div>
-</section>
+
+
 
 
 
