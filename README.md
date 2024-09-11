@@ -10,7 +10,7 @@
   </p>
 
   <p align="justify">
-  Hi I am Joy. I enjoy developing ML, DL, MC simulations and statistical models for business cases.
+  Hi I am Joy. I enjoy developing ML, DL, MC simulations, LLM models and statistical models for business cases.
   Expertise in Python coding, algorithms, data structures, probabilistic models (Bayesian, Bayesian Networks, Regression, Random Forest)
   <br><br>
   </p>
