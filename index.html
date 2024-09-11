@@ -13,11 +13,30 @@
 
  <style>
         .image-container {
-            display: flex;
+            display: block;
+          margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+    
         }
         .image-container img {
-            margin-right: 10px; /* Add space between images */
+            
+            margin: 1; /* Remove default margin */
+            
         }
+
+
+.underlineh1 {
+            border-bottom: 4px solid black; /* Adjust thickness and color */
+            width: 100%; /* Span the full width */
+            margin: 10; /* Remove default margin */
+        }
+
+.underlineh2 {
+            border-bottom: 2px solid black; /* Adjust thickness and color */
+            width: 100%; /* Span the full width */
+            margin: 10; /* Remove default margin */
+        }
+
     </style>
 
 
@@ -26,21 +45,24 @@
 <style>
   .about-section {
     text-align: left;
-    padding: 50px 0;
+    margin: 1; /* Remove default margin */
   }
 
+       
+  
 
 
-  .about-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
+
   .about-section img {
-    align: left;
+    
+    
     width: 200px; /* Adjust the size as needed */
     height: 200px;
     border-radius: 50%; /* Makes the image round */
     margin-bottom: 20px;
+    margin: 1; /* Remove default margin */
+    
+
   }
   .about-section p {
     color: #333;
@@ -77,9 +99,12 @@
   margin-bottom: 15px;
 }
 
+
+
+
 /* Additional CSS for Skills Section */
 .skills-section h2 {
-  margin-bottom: 40px;
+  
   font-size: 2.5rem;
 }
 .skills-section .card {
@@ -180,11 +205,12 @@ html {
 
 <section id='about' class="about-section">
   
-<div class="container">
+<div class="container-img">
     
-    <img src="images/about/1.jpg" >
+ 
+<img src="images/about/1.jpg" class="image-container">
 
-    
+   </div>
 
 
 <head>
@@ -194,21 +220,25 @@ html {
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 200px;
             line-height: 1.4;
+
         }
         h1, h2 {
             color: #333;
             text-align: left;
+            font-weight: 500;
         }
         h1 {
-            font-size: 60px;
+            font-size: 35px;
+            
+
         }
         h2 {
-            font-size: 30px;
+            font-size: 25px;
         }
         h3 {
-            font-size: 20px;
+            font-size: 18px;
         }
         a {
             color: #0066cc;
@@ -231,37 +261,36 @@ html {
 <body>
 
     <h1><b>Bejoy Alduse </b> </h1>
-<p> &nbsp; </p>
+
+
     <div class="contact-info">
-        <p>Phone: 850-345-8504 | Email: <a href="mailto:bejoy.alduse@gmail.com">bejoy.alduse@gmail.com</a></p>
-        <p>
-            <a href="https://linkedin.com/in/bejoyalduse" target="_blank">LinkedIn</a>
-            <a href="https://github.com/joy-ald" target="_blank">GitHub</a>
-            <p> &nbsp; </p>
-        </p>
+        <p>Phone: 850-345-8504 | Email: <a href="mailto:bejoy.alduse@gmail.com">bejoy.alduse@gmail.com</a>| 
+        
+            <a href="https://linkedin.com/in/bejoyalduse" target="_blank"> LinkedIn</a> | 
+            <a href="https://github.com/joy-ald" target="_blank"> GitHub | </a> 
+             
+            <div class="underlineh1"></div> </p>
+            &nbsp; 
+        
     </div>
 
     <div class="section">
-        <h2>Summary</h2>
-        <p>Data Scientist with extensive experience in predictive analytic solutions using Python and SQL. ETL experience and object-oriented programming skills. Demonstrated ability to express complex technical concepts in business terms. Developed technology products through innovation using agile methodologies for building, testing, and release. Excellent experience implementing operational research and computer science methods.</p>
+        <h2>Professional Summary</h2> 
+        <p>Data Scientist with extensive experience in predictive analytic solutions using Python and SQL. ETL experience and object-oriented programming skills. Demonstrated ability to express complex technical concepts in business terms. Developed technology products through innovation using agile methodologies for building, testing, and release. Excellent experience implementing operational research and computer science methods.</p><p> &nbsp; </p>
     </div>
 
-    <div class="section">
-        <h2>Skills</h2>
-        <p>Python, SQL, <a href="http://tinyurl.com/bejoyML" target="_blank">BigQuery,  Google Cloud</a>, AWS, Tableau, Jupyter, Matlab</p>
-        <p>Working knowledge of Alteryx, Kubernetes, Docker, Bert, Encoder-Decoder, RNN, CNN</p>
-    </div>
+    
 
     <div class="section">
-        <h2>Work Experience</h2>
-        <h3>Clemson-AIG partnership and Self-Taught, Nashville</h3>
-        <p><strong>Data Scientist</strong> | Jan 2022 - Aug 2024</p>
+        <h2>Work Experience</h2><div class="underlineh2"></div> &nbsp; 
+        <h3>Clemson-AIG partnership and Self-Taught</h3>
+        <p><strong>Data Scientist</strong> | Jan 2022 - Till Date</p>
         <ul>
             <li>Developed scalable solutions (Python, SQL), analytics strategy, dashboards (Tableau), and applications in Agile. Collaborated with 5 engineers on $100M insurer portfolio.</li>
             <li>Researched 25 factors influencing insurance risk and business profit. Mapped vendor vs. in-house models. Improved speed by 30% using MapReduce.</li>
             <li>Conducted data analysis on large datasets for actionable insights using Python and SQL. Modeled Bayesian Network for $70M wind farm risk across 5 US states.</li>
             <li>Designed machine learning algorithms (LSTM, RNN, Regression) for real-time data, optimizing risk visibility and revenue.</li>
-            <li><a href="http://tinyurl.com/bejoyCE" target="_blank">ML and Python Certifications </a></li>
+            
         </ul>
 
         <h3>Clemson-AIG partnership, Clemson</h3>
@@ -270,16 +299,69 @@ html {
             <li>Developed vulnerability framework for buildings, generating 500+ models in Matlab. Improved efficiency by 15% using Hadoop.</li>
             <li>Submitted batch jobs using Linux shell. Enhanced flexibility for multiple occupancy, construction types, and environmental effects.</li>
             <li>Incorporated physics-based models on wind pressure, debris impact, and rain intrusion in loss estimation. Published research and presented at a conference.</li>
+            <p> &nbsp; </p>
         </ul>
     </div>
-
+   <div class="section">
+        <h2>Skills</h2><div class="underlineh2"></div>&nbsp;
+        <ul>
+           <li>  <a href="http://tinyurl.com/bejoyCE" target="_blank"> Python </a> , SQL, <a href="http://tinyurl.com/bejoyML" target="_blank">BigQuery,  Google Cloud</a>, AWS, Tableau, Jupyter, Matlab</li>
+           <li> Working knowledge of Alteryx, Kubernetes, Docker, Bert, Encoder-Decoder, JS, HTML, CSS</p><p> &nbsp;</li>
+    </div>
     <div class="section">
-        <h2>Education</h2>
+        <h2>Education</h2><div class="underlineh2"></div> &nbsp; 
         <h3>Florida State University, Tallahassee</h3>
         <p><strong>Ph.D., Civil Engineering</strong> | Jan 2010 - Dec 2014</p>
-        <p>Research: Bayesian approach to predictive models, determining failure probabilities in complex systems.</p>
-        
+        <ul>
+           <li> Research: Bayesian approach to predictive models, determining failure probabilities in complex systems.</li>
+           <li> Doctoral Dissertation title – “Prediction of wind induced damage using prior knowledge and monitored data.” </li>
+
+        </ul>
+        <p> &nbsp; </p>
     </div>
+
+<h2>Past roles and responsibilities </h2><div class="underlineh2"></div>&nbsp;
+
+<h3>Florida State University, Florida </h3>
+        <p><strong>Research Assistant</strong> | Jan 2010 – Aug 2015</p>
+        <ul>
+            <li> Research on Bayesian approach to predictive models, determining failure probabilities in complex systems.</li>
+            <li>Team player in developing Bayesian based fragility model of mitigation measures in residential buildings.</li>
+            <li>Quantified uncertainties in capacities of roof-to-wall connections and their failure probabilities.</li>
+            <li>Developed fragility models for residential buildings.</li>
+            <p> &nbsp; </p>
+        </ul>
+
+<h3>Florida State University, Florida</h3>
+        <p><strong>Teaching Assistant</strong> | Fall 2010, Spring 2013</p>
+        <ul>
+            <li>Presented lectures on engineering mechanics and analysis, problem solving sessions and proctored tests and quizzes. Class size of 50+ students.</li>
+            <li>Conducted (in class and office hours) detailed discussions with students to clarify concepts, every week for 3 semesters.</li>
+            <li>Prepared homework assignments, practice tests questions, evaluated tests, assignments and uploaded the scores.</li>
+            
+            <p> &nbsp; </p>
+        </ul>
+
+<h3> Engineering </h3>                                                                                                                                                    
+<p><strong> Project Management |</strong> Oct 2003 - Aug 2007  </p>
+           <ul>
+             <li>Preparation of contract documents for large projects, approval for small projects - evaluation of bids and rate negotiations.</li>
+             <li>Designed structural concrete elements, estimation, responsible for liasons with representatives, project progress reports. </li>
+             <li>Closing out of crucial Non-Conformance Reports and Field Memos related to concrete repair and injections works.</li>
+             <li>Inspections of structural and architectural trades, material testing and follow up with consultants.</li>
+             <li>Training of subordinates on safety, quality and workmanship.
+           <p> &nbsp; </p>
+           </ul>
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
@@ -292,7 +374,7 @@ html {
 </section>
 
 <style>
-        /* Container for the two images side by side */
+        /* Container for the two images of GS and ORCID side by side */
         .image-container {
             display: flex;
             justify-content: space-between; /* Space between the images */
@@ -306,8 +388,8 @@ html {
 
         /* Style for images */
         .image-item img {
-            width: 700px;
-            height: 1000px;
+            width: 400px;
+            height: 600px;
         }
     </style>
 </head>
@@ -316,14 +398,14 @@ html {
 <div class="image-container">
     <div class="image-item">
         <h5>
-            <a href="https://tinyurl/bejoyalduse"target="_blank">Visit Google Scholar Profile </a>
+            <a href="https://tinyurl/bejoyalduse"target="_blank">Visit Google Scholar Profile </a><p> &nbsp; </p>
         </h5>
 
         <img src="https://api.url2png.com/v6/P4DF2F8BC83648/98cad82bc19bc7352c1c6a262c346190/png/?thumbnail_max_width=851&url=https://scholar.google.com/citations?user=-Wiy3ksAAAAJ&hl=en&viewport=1280x2000" alt="Image 1">
     </div>
     <div class="image-item">
         <h5>
-            <a href="https://tinyurl/bejoyOR"target="_blank">Visit ORCID Profile</a>
+            <a href="https://tinyurl/bejoyOR"target="_blank">Visit ORCID Profile</a><p> &nbsp; </p>
         </h5>
 
         <img src="https://api.url2png.com/v6/P4DF2F8BC83648/35a0c07efd4efe2c50f1fb17e4f6072f/png/?thumbnail_max_width=851&url=https://orcid.org/0000-0003-0485-2545&viewport=1280x2000" alt="Image 2">
@@ -403,7 +485,7 @@ html {
           <div class="card-body">
             <h5 class="card-title">Python</h5>
             <p class="card-text">   </p>
-            <a href="#" class="btn btn-outline-primary"> src = "https://github.com/joy-ald/MLProjects" </a>
+            <a href="#" class="btn btn-outline-primary"> </a>
           </div>
         </div>
       </div>
